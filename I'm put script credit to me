@@ -1,0 +1,15 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Hamza Hub Slap Battles")
+
+
+local Tab1 = PhantomForcesWindow:NewSection("Clock Glove ")
+
+Tab1:CreateButton("Auto Op Clock Glove", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/AutoGetClock/main/main.lua'))()
+end)
+local Tab1 = PhantomForcesWindow:NewSection("Get Glove Fan ")
+
+Tab1:CreateButton("Get Glove Fan", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/autogetfanglove/main/main.lua'))()
+end)
